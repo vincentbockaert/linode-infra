@@ -1,6 +1,6 @@
 resource "linode_lke_cluster" "playground" {
     label       = "playground"
-    k8s_version = "1.28"
+    k8s_version = "1.29"
     region      = "nl-ams"
     tags        = ["playground"]
 
